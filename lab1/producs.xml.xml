@@ -1,0 +1,20 @@
+<product>
+    <phone id ="1">
+        <name> samsung </name>
+        <uniteprice > 235000 </unieprice>
+        <stock>50 </stock>
+        <satuse>1</satuse>
+    </phone>
+    <phone id ="20">
+        <name> htc </name>
+        <uniteprice > 65300 </unieprice>
+        <stock>35 </stock>
+        <satuse>0</satuse>
+    </phone>
+        <phone id ="23">
+        <name> nokia </name>
+        <uniteprice > 25100 </unieprice>
+        <stock>100 </stock>
+        <satuse>1</satuse>
+    </phone>
+</product>

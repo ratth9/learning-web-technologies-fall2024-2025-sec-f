@@ -1,0 +1,66 @@
+<employs>
+    <employ id="1">
+    <name>
+        <fristname>hjon</fristname>
+        <lastname>doe </lastname>
+    
+    </name>
+    <address>
+        <flate>h#</falate>
+        <house>r#3</house>
+        <road></road>
+        <area>banani</area>
+        <city>dhaka</city>
+    </address>
+    <department>sales</department>
+    <salary>$20000</salary>
+
+        <employ id="2">
+    <name>
+        <fristname>mark</fristname>
+        <lastname>jukerbegr </lastname>
+    
+    </name>
+    <address>
+        <flate>#a/1</falate>
+        <house>H#</house>
+        <road>20</road>
+        <area>mrrpur</area>
+        <city>dhaka</city>
+    </address>
+    <department>acounts</department>
+    <salary>$12000</salary>
+
+        <employ id="3">
+    <name>
+        <fristname>aa</fristname>
+        <lastname>voski </lastname>
+    
+    </name>
+    <address>
+        <flate>h#</falate>
+        <house>3337</house>
+        <road>4</road>
+        <area>moijhil</area>
+        <city></city>
+    </address>
+    <department>sales</department>
+    <salary></salary>
+
+        <employ id="1">
+    <name>
+        <fristname></fristname>
+        <lastname> </lastname>
+    
+    </name>
+    <address>
+        <flate></falate>
+        <house></house>
+        <road></road>
+        <area></area>
+        <city></city>
+    </address>
+    <department>human resource</department>
+    <salary>$3000</salary>
+
+</employs>
