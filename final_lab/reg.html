@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+</head>
+
+<body>
+    <form id="registerForm" method="POST" action="reg.php">
+        <label for="name">Employee Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="contact">Contact No:</label>
+        <input type="text" id="contact" name="contact" required><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function (e) {
+            const name = document.getElementById('name').value;
+            const contact = document.getElementById('contact').value;
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (!name || !contact || !username || !password) {
+                e.preventDefault();
+                alert('All fields are required!');
+            }
+        });
+    </script>
+</body>
+
+</html>
